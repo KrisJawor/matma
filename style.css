@@ -1,0 +1,189 @@
+bogy
+{
+    font: Arial, Helvetica, sans-serif;
+}
+#container
+{
+	width: 1050px;
+/*	border: 1px solid gray;*/
+	margin: 0 auto;
+}
+#header
+{
+	height: 100px;
+        padding: 10px 0;
+}
+#title 
+{
+	float: left;
+}
+h1 a 
+{
+	font-size: 50px;
+	font-weight: 100;
+	color: #4d703f;
+	text-decoration: none;
+}
+#searchbox
+{
+	float: right;
+	background: linear-gradient(#4aed4c, #2f8a30);
+	background: -webkit-linear-gradient(#4aed4c, #2f8a30);
+	background: -o-linear-gradient(#4aed4c, #2f8a30);
+	background: -moz-linear-gradient(#4aed4c, #2f8a30);
+        width: 400px;
+        height: 50px;
+        padding: 20px 20px 0 20px;
+        margin-top: 10px;
+}
+.textinput
+{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: red;
+    background: white url(images/loupe.png) right center no-repeat;
+    border: 1px solid black;
+}
+.submit
+{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    font-size: 15px;
+}
+.clear
+{
+    clear: both;
+}
+#menu
+{
+    height: 70px;
+    background: linear-gradient(#F7EE98, #D8CC2F);
+    background: -webkit-linear-gradient(#F7EE98, #D8CC2F);
+    background: -moz-linear-gradient(#F7EE98, #D8CC2F);
+    background: -o-linear-gradient(#F7EE98, #D8CC2F);
+    padding: 7px 0;
+}
+ul
+{
+    list-style: none;
+}
+#menu ul li
+{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #4d703f;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #4d703f;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+}
+#menu ul li:last-child
+{
+    border-right: none;
+}
+#menu ul li a:hover, #menu ul li a.active
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+#introduction
+{
+    background: linear-gradient(#DCDED1, #B7DA57);
+    background: -webkit-linear-gradient(#DCDED1, #B7DA57);
+    background: -o-linear-gradient(#DCDED1, #B7DA57);
+    background: -moz-linear-gradient(#DCDED1, #B7DA57);
+    padding: 30px;
+    margin: 16px 0;
+}
+#introduction h3
+{
+    font-size: 45px;
+    color: #2C6013;
+    font-weight: normal;
+}
+#introduction p
+{
+    font-size: 25px;
+    color: #7B9832;
+    text-align: justify;
+}
+.sidebar
+{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #BCCB8D;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar h3
+{
+    color: #BD30E2;
+    font-size: 30px;
+}
+.sidebar ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #4d703f;
+    transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active
+{
+    text-decoration: none;
+    color: purple;
+    font-size: 21px;
+    font-weight: bold;
+}
+#leftsidebar
+{
+    float: left;
+}
+#rightsidebar
+{
+    float: right;
+}
+.sidebar ul
+{
+    padding-top: 8px;
+}
+#rightsidebar ul li
+{
+    padding-bottom: 7px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow.png);
+}
+#leftsidebar ul li
+{
+    padding: 20px 0 20px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+.footer
+{
+    height: 45px;
+    background: linear-gradient(#F7EE98, #D8CC2F);
+    background: -webkit-linear-gradient(#F7EE98, #D8CC2F);
+    background: -moz-linear-gradient(#F7EE98, #D8CC2F);
+    background: -o-linear-gradient(#F7EE98, #D8CC2F);
+    padding: 15px 30px;
+    margin-top: 15px;
+}
