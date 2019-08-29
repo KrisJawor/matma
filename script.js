@@ -1,4 +1,4 @@
-document.getelementbyclass('submit') onclick=function()
+document.getElementById('submit').onclick=function()
 {
   alert("strona nadal w budowie")
 }
