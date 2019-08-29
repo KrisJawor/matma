@@ -170,12 +170,12 @@ ul
 {
     padding-bottom: 7px;
     padding-left: 10px;
-    list-style-image: url(images/arrow.png);
+    list-style-image: url(arrow.png);
 }
 #leftsidebar ul li
 {
     padding: 20px 0 20px 70px;
-    background: url(images/tick.png) no-repeat left center;
+    background: url(tick.png) no-repeat left center;
 }
 .footer
 {
